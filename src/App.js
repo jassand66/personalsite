@@ -16,7 +16,7 @@ const projects = [
     description: 'This project is a self-made project. I tasked myself with creating a personal website to display my programming skills. I utlitze React as well as Amazon Cloud Services. It serves the purpose of being a one stop shop for my projects as well as an extension of my imagination. ',
     image: '../ProjectLogos/personalsitelogo.png', 
     tags: ['Javascript', 'Amazon S3', 'ReactJS'],
-    viewSource: '#', // Update with actual link
+    viewSource: 'https://github.com/jassand66/personalsite', 
   },
   /* Create two more slots for ML project and for Aggie Tracker and for maybe the thread library*/
 ];
