@@ -13,12 +13,22 @@ const projects = [
   },
   {
     title: 'Personal Website',
-    description: 'This project is a self-made project. I tasked myself with creating a personal website to display my programming skills. I utlitze React as well as Amazon Cloud Services. It serves the purpose of being a one stop shop for my projects as well as an extension of my imagination. ',
+    description: 'This project is a self-made project. I tasked myself with creating a personal website to display my programming skills. I utlitze React as well as Amazon Cloud Services. It serves the purpose of being a one stop shop for my projects as well as an extension of my imagination.',
     image: '../ProjectLogos/personalsitelogo.png', 
     tags: ['Javascript', 'Amazon S3', 'ReactJS'],
     viewSource: 'https://github.com/jassand66/personalsite', 
   },
-  /* Create two more slots for ML project and for Aggie Tracker and for maybe the thread library*/
+  {
+    title: 'Machine Learning Based Security Camera',
+    description: 'This project was created to see the efficacy of machine learning in security camera software. A model was trained using TensorFlow and applied to live security camera footage in order to spot intruders in real time.',
+    image: '../ProjectLogos/camera.png', 
+    tags: ['Python', 'TensorFlow', 'Computer Vision'],
+    viewSource: 'https://github.com/rahulb1218/174', 
+  },
+  
+
+
+
 ];
 
 
@@ -66,13 +76,12 @@ const BioCard = () => (
           world. Currently, I am looking for full-time software engineering positions as I am a university graduate! */}
 
           I am a dedicated and passionate software engineer with a strong foundation in programming and a keen interest in leveraging technology to create meaningful impact.
-          Proficient in multiple programming languages including C++, Python, Java, and JavaScript, I am committed to utilizing my technical skills to develop innovative solutions
-          that contribute to a better world.Throughout my educational and professional journey, I have consistently sought opportunities to expand both my technical and interpersonal skills.
+          With profciency in multiple programming languages including C++, Python, Java, and JavaScript, I am committed to utilizing my technical skills to develop solutions
+          to contribute to a better world.Throughout my journey, I have consistently sought opportunities to expand both my technical and interpersonal skills.
           In high school, I worked various minimum wage jobs to cultivate essential social skills and gain a practical understanding of workplace dynamics. These experiences taught me the importance
-          of effective communication, teamwork, and adaptability. During my tenure as a software engineering intern at the University of California, Davis, I had the opportunity to apply my programming knowledge in real-world scenarios.
+          of effective communication, teamwork, and adaptability. During my time as a software engineering intern at the University of California, Davis, I had the opportunity to apply my programming knowledge in real-world situations.
           This internship was instrumental in deepening my understanding of software development processes and best practices.
-          I collaborated with experienced engineers on complex projects, which honed my problem-solving abilities and reinforced my commitment to continuous learning.
-          As a new university graduate, I am now seeking full-time software engineering positions where I can contribute my skills and enthusiasm to a team. I am excited to engage in challenging projects that would not only test my technical prowess but also align with my values of impact-driven programming.
+          As a new university graduate, I am now seeking full-time software engineering positions where I can contribute my skills and enthusiasm to a team. I am excited to engage in challenging projects that would not only test my technical ability but also align with my values of impact-driven programming.
 
 
 

@@ -256,8 +256,8 @@ color: black
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   overflow: hidden;
-  width: 1700px; /* Set a fixed width */
-  height: 400px; /* Set a fixed height */
+  width: 1700px; 
+  height: 400px; 
   margin: 20px; /* Center the card */
   margin: 20px auto; 
   padding: 50px; 
@@ -366,9 +366,12 @@ color: black
 .bio-text {
   flex: 1;
   margin-left: 20px;
+  max-width: 900px; 
+  line-height: 1.6; 
 }
 
 .bio-image {
+  margin-left: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
