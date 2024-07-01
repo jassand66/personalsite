@@ -24,6 +24,7 @@ const projects = [
     image: '../ProjectLogos/camera.png', 
     tags: ['Python', 'TensorFlow', 'Computer Vision'],
     viewSource: 'https://github.com/rahulb1218/174', 
+    
   },
   
 
