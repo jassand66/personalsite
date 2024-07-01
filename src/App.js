@@ -68,12 +68,6 @@ const BioCard = () => (
         </Typography>
 
         <Typography variant="body2" color="text.secondary">
-          {/* I am an aspiring software engineer with a passion for programming. I am proficient in C++, Python, Java, and Javascript.
-          I hope to get the chance to use my programming skills to enable a better world. Programming with an impact is my motto. 
-          I have had the fortunate opportunity to learn both people skills and programming skills through my work experience. While 
-          in high-school I worked minimum wage jobs in order to get familiarized with social skills necessary in the workplace. Then 
-          with my software engineering internship at UC Davis, I learned to further my programming knowledge and apply it in the real
-          world. Currently, I am looking for full-time software engineering positions as I am a university graduate! */}
 
           I am a dedicated and passionate software engineer with a strong foundation in programming and a keen interest in leveraging technology to create meaningful impact.
           With profciency in multiple programming languages including C++, Python, Java, and JavaScript, I am committed to utilizing my technical skills to develop solutions
