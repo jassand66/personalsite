@@ -83,13 +83,13 @@ const BioCard = () => (
         </Typography>
 
         <div className="bio-buttons">
-          <a href="mailto:jassandhami@gmail.com" className="bio-button">
+          <a href="mailto:jassandhami@gmail.com" className="bio-button" target="_blank" rel="noopener noreferrer">
             <i className="fas fa-envelope"></i> Email
           </a>
-          <a href="https://www.linkedin.com/in/jassan-dhami-4a7164259/" className="bio-button">
+          <a href="https://www.linkedin.com/in/jassan-dhami-4a7164259/" className="bio-button" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i> LinkedIn
           </a>
-          <a href="https://github.com/jassand66" className="bio-button">
+          <a href="https://github.com/jassand66" className="bio-button" target="_blank" rel="noopener noreferrer" > 
             <i className="fab fa-github"></i> GitHub
           </a>
         </div>
