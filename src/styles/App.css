@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 } /* To enable smooth scrolling upon navbar selection*/
 
+
 nav {
   background-color: #333333; 
   padding: 10px 20px; /* Padding for the nav bar */
@@ -29,6 +30,20 @@ nav a:hover {
   color: #ffffff; 
 }
 
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: row;
+    padding: 2px 0;
+  }
+
+  nav a {
+    margin: 2px 0;
+    font-size: 1em;
+    padding: 5px 20px;
+  }
+}
+
 
 h1 {
   position: relative;
@@ -51,6 +66,26 @@ h1::after {
   border-radius: 0%; /* Round the square to make it a circle */
 }
 
+
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  h1 {
+    text-align: center;
+    font-size: 28px !important; /* Reduced font size for mobile */
+    margin-bottom: 8px; /* Adjusted margin */
+  }
+
+  h1::after {
+    text-align: center;
+    top: 35%; /* Adjusted position for mobile */
+    left: calc(100% + 4px); /* Adjusted position for mobile */
+    transform: translateY(-50%);
+    width: 18px; /* Reduced width for mobile */
+    height: 35px; /* Reduced height for mobile */
+  }
+}
+
 @keyframes blink {
   0%, 100% {
     opacity: 1; /* Fully visible */
@@ -59,8 +94,6 @@ h1::after {
     opacity: 0; /* Fully transparent */
   }
 }
-
-
 
 body {
   margin: 0;
@@ -94,6 +127,27 @@ body {
   background-color: #008080; 
 }
 
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .section {
+    padding: 50px 15px; /* Reduce padding for mobile */
+    margin-top: 30px; /* Reduce margin between sections */
+  }
+
+  .section-header {
+    margin-bottom: 15px; /* Reduce space between header and content */
+  }
+
+  .section-header h2 {
+    font-size: 1.5em; /* Reduce font size */
+    margin-bottom: 3px; /* Reduce space between header and underline */
+  }
+
+  .section-header .underline {
+    height: 3px; /* Reduce height of underline */
+  }
+}
+
 
 /* Reset styles */
 * {
@@ -119,6 +173,9 @@ body {
 .home {
   text-align: center;
   background-color: #f8f9fa;
+  margin: 0 auto; /* Center the home section */
+  max-width: 100%; /* Ensure it doesn't overflow */
+  padding: 20px;
 }
 
 .home h1 {
@@ -134,14 +191,25 @@ body {
 }
 
 .home .subhead {
-font-size: 1.4em;
-color: black
+  font-size: 1.4em;
+  color: black
 }
 
 .home .highlight {
   color: #008080; /* Similar to the link color in the image */
   text-decoration: none;
   font-weight: bold;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .home .subhead {
+    font-size: 1.1em; /* Reduced font size for mobile */
+  }
+
+  .home .highlight {
+    font-size: 1em; /* Reduced font size for mobile */
+  }
 }
 
 .home .macos-window {
