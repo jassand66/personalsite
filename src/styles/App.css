@@ -431,7 +431,7 @@ body {
   }
 
   .project-image img {
-    width: 80%; /* Adjust width to fit within the card */
+    width: 75%; /* Adjust width to fit within the card */
     max-width: 300px; /* Limit the size */
     height: auto;
     border-radius: 16px;
@@ -464,9 +464,6 @@ body {
   }
   
 }
-
-
-
 
 #about {
   background-color: #f0f0f0;
