@@ -260,11 +260,11 @@ body {
  .code-block {
   background-color: #f0f0f0;
   color: #333;
-  padding: 20px;
+  padding: 100px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   width: calc(100% - 40px);
-  margin: 0 auto;
+  margin: 0, auto;
   text-align: left;
   border-top: none;
   box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1); 
@@ -410,6 +410,61 @@ body {
   height: auto; 
   margin-right: 1px;
 }
+
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column; /* Stack content vertically */
+  }
+
+  .project-content h3 {
+    font-size: 1.4em;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 1px;
+    color: #008080;
+  }
+
+  .project-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px; /* Add some spacing below the image */
+  }
+
+  .project-image img {
+    width: 80%; /* Adjust width to fit within the card */
+    max-width: 300px; /* Limit the size */
+    height: auto;
+    border-radius: 16px;
+  }
+
+  .project-content p {
+    display: none; /* Hide only the project description */
+  }
+
+  .project-tags {
+    display: flex;
+    justify-content: center; /* Center the tags */
+    flex-wrap: wrap;
+    gap: 5px; /* Reduce gap to save space on smaller screens */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+
+  .project-tags span {
+    background-color: #e7f3f3;
+    color: #008080;
+    padding: 4px 8px; /* Slightly smaller padding for mobile */
+    border-radius: 5px;
+    font-size: 0.8em; /* Slightly smaller font size */
+  }
+
+  .project-buttons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+  }
+}
+
+
 
 
 #about {
