@@ -73,7 +73,7 @@ h1::after {
   h1 {
     text-align: center;
     font-size: 28px !important; /* Reduced font size for mobile */
-    margin-bottom: 8px; /* Adjusted margin */
+    margin-top: 40px; /* Adjusted margin */
   }
 
   h1::after {
@@ -532,8 +532,6 @@ body {
 
 
 
-
-
 .skill-card {
   display: flex;
   border-radius: 10px;
@@ -573,6 +571,86 @@ body {
   object-position: center;
 }
 
+@media (max-width: 768px) {
+  .bio-card {
+    flex-direction: column; /* Stack content vertically */
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .bio-card-content {
+    display: flex;
+    flex-direction: column; /* Stack image, links, and text */
+  }
+
+  /* Container for the image and links */
+  .image-and-buttons {
+    display: flex;
+    flex-direction: row; /* Arrange image and buttons side by side */
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .bio-image {
+    order: 1 !important;
+    margin-left: 0;
+    margin-bottom: 20px; /* Add space below the image */
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+  }
+
+  .bio-buttons {
+    order: 2 !important;
+    flex: 1;
+    display: flex;
+    align-items: center; /* Center the buttons vertically */
+    justify-content: center;
+  }
+
+  .bio-text {
+    margin-top: 20px; /* Place text below the image and links */
+    max-width: 100%; /* Ensure text takes full width */
+  }
+
+  .bio-image img {
+    max-width: 150px; /* Limit image size */
+    max-height: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap; /* Allow skill cards to wrap into multiple rows */
+    justify-content: space-between; /* Add space between cards */
+  }
+
+  .skill-card {
+    width: calc(33.3% - 10px); /* Adjust width to fit 3 cards in a row */
+    margin: 5px; /* Add small margin for spacing */
+    position: relative;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+  }
+
+  .skill-card-content {
+    position: absolute; /* Position content inside the square container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill-card img {
+    max-width: 80%; /* Ensure the image fits the skill card */
+    height: auto; /* Adjust height automatically */
+  }
+}
 
 
 
