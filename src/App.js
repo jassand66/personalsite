@@ -19,15 +19,15 @@ const projects = [
     viewSource: 'https://github.com/jassand66/personalsite', 
   },
   {
-    title: 'Machine Learning Security Camera',
+    title: 'ML Security',
     description: 'This project was created to see the efficacy of machine learning in security camera software. A model was trained using TensorFlow and applied to live security camera footage in order to spot intruders in real time.',
     image: '../ProjectLogos/camera.png', 
     tags: ['Python', 'TensorFlow', 'Computer Vision'],
     viewSource: 'https://github.com/rahulb1218/174', 
     
   },
-  
 
+  
 
 
 ];
