@@ -12,6 +12,7 @@ nav {
   position: fixed; /* Fixed position to persist at the top */
   top: 0;
   width: 100%;
+  height: 50px;
   z-index: 1000; /* Ensure navbar is above other content */
 }
 
@@ -44,14 +45,15 @@ nav a:hover {
   }
 }
 
-
+/*teal header: Jassan Dhami*/
 h1 {
   position: relative;
   font-family: 'Roboto Mono', monospace; 
   font-size: 28px; 
   font-weight: lighter; 
   color: #333; 
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
+  margin-top: 25px; 
 }
 
 h1::after {
